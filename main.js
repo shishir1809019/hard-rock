@@ -35,6 +35,7 @@ function searchResult(songTitle) {
             }
         }
     })
+    .catch(error => alert("No lyrics found"))
 }
 
 function findLyrics() {
